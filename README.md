@@ -9,6 +9,8 @@ This is a simple proxy server that runs on the google cloud platform
 1. Nodejs - to install nodejs visit [nodejs.org](https://nodejs.org/en/download/)
 2. A google cloud account - to create a google cloud account visit [cloud.google.com](https://cloud.google.com/)
 
+## Installing
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 1. Clone the repo to your local machine `git clone https://github.com/ifeLight/proxy-server-gcp-functions proxy-server`
