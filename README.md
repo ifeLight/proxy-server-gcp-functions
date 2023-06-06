@@ -28,7 +28,8 @@ To run the tests, run `npm test`
 To deploy follow the following steps:
 
 1. Create a new project on the google cloud platform
-2. Enable the cloud functions api
-3. Create a new service account and download the json file
-4. Copy the `sample.env.yaml` and create a new file `.env.yaml` and fill in the required details.
-5. Run `npm run deploy` to deploy the app to the cloud functions
+2. Install the google cloud sdk on your local machine [Click here to install the google cloud sdk](https://cloud.google.com/sdk/docs/install).
+3. Run `gcloud init` to initialize the sdk
+4. Create a new service account and download the json file
+5. Copy the `sample.env.yaml` and create a new file `.env.yaml` and fill in the required details.
+6. Run `npm run deploy` to deploy the app to the cloud functions
